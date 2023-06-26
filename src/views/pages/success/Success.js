@@ -12,6 +12,9 @@ import {
 } from '@coreui/react'
 import { Link } from 'react-router-dom/dist'
 import firebase from 'firebase/compat/app'
+import 'firebase/compat/firestore'
+import 'firebase/compat/functions'
+import 'firebase/compat/auth'
 
 const Success = () => {
   // Initialize Firebase
