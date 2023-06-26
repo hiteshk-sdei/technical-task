@@ -33,8 +33,8 @@ const Purchase = () => {
         },
       ],
       mode: 'subscription',
-      successUrl: `http://localhost:3000/#/success`,
-      cancelUrl: `http://localhost:3000/cancel`,
+      successUrl: window.location.origin + '/#/success',
+      cancelUrl: window.location.origin + '/#/purchase',
 
       // customerEmail: 'hitesh.coder786@gmail.com',
     })
